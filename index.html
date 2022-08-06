@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>REALM 1 - Speed Typing</title>
+<link href="style.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="favicon.PNG">
+<script defer src="script.js"></script>
+</head>
+
+<body class="bg-dark text-white">
+	<div>
+    	<img id="title-img" class="title-img hide" src="ASSETS/realm 1 title-sign.png" height="69" alt=""/>
+		<img id="opening-counter" class="msg" src="ASSETS/counter.png" height="840" alt=""/>
+		<div class="countdown-text" id="countdown-text">5</div>
+		
+		<img src="ASSETS/pass-msg.png" height="491" alt="" id="pass-msg" class="msg hide"/> 
+		<img src="ASSETS/fail-msg1.png" height="840" alt="" id="fail-msg" class="msg hide"/>
+		
+	  <input type="image" class="menu-btn btn hide" id="menu-btn" src="ASSETS/menu-btn.png" height="71" alt="" onClick="window.location.href='https://interaktiv.benilde.edu.ph/?page_id=4171';"></button>
+		
+	 <div class="time-score">
+		  <div id="timer-text" class="timer hide">
+				TIMER:
+				<span id="time">15</span>
+			</div>
+		
+		  <div id="score-text" class="score hide">
+				SCORE:
+				<span id="score">0</span>
+			</div>
+		</div>
+		
+		<!-- WORD AND INPUT -->
+	  <div class="container hide" id="container">
+		  
+			<img class="text-container hide" id="text-container" src="ASSETS/container1.png" alt=""/>
+			<div class="instructions hide texts" id="instructions">Type the given word in 15 seconds:</div>
+			<div class="current-word hide texts" id="current-word">quote</div>
+			<div class="current-definition hide texts" id="current-definition">quote</div>
+			<input type="text" class="answer-box hide" placeholder="TYPE YOUR ANSWER HERE" id="word-input" autofocus>
+	
+	  </div>
+	
+	</div>
+</body>
+</html>
