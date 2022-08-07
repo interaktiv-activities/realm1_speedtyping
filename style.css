@@ -160,11 +160,11 @@ body{
 /* ----OVERLAY DESIGN---- */
 
 .btn{
-	/*color: white;
+	color: white;
 	font-family: "LuloCleanW01-OneBold";
 	border: transparent;
 	background-color: #6ecfbc;
-	font-size: 14px;*/
+	font-size: 14px;
 	padding-left: 40px;
 	padding-right: 40px;
 	margin-top: 30px;
@@ -176,9 +176,9 @@ body{
 }
 
 .btn:hover{
-	/*color:white;
+	color:white;
 	font-family: "LuloCleanW01-OneBold";
 	border:transparent;
-	background-color:#f9623e;*/
+	background-color:#f9623e;
 	cursor: pointer;
 }
